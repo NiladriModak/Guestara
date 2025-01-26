@@ -6,6 +6,7 @@ To Run the file locally
   4) ![image](https://github.com/user-attachments/assets/d66a0be2-8088-4dc5-8680-6f7c8a2cd44a)
 
   5) npm run dev
+
 The main api calls are:-
 
   POST REQUEST
@@ -36,6 +37,7 @@ The main api calls are:-
 Short answer to the following questions:
 
 Which database you have chosen and why?
+
 Ans - ➡️ MongoDB uses a document-based model (JSON-like structure) which makes it highly flexible for projects that deal with dynamic and evolving data schemas.
       ➡️ MongoDB provides fast read/write operations. 
       ➡️ Indexing for optimized queries.
@@ -43,15 +45,18 @@ Ans - ➡️ MongoDB uses a document-based model (JSON-like structure) which mak
       ➡️ MongoDB is more efficient than traditional SQL databases.
       
 3 things that you learned from this assignment?
+
 Ans - ➡️ Creating a Database design having no redundancy (only a single table instade of multiple)
       ➡️ Implementing business logic, such as tax applicability, calculating total amounts (Base - Discount + Tax), and cascading defaults (subcategory inheriting category tax by default), was insightful and gave me a deeper understanding of backend logic design.
       ➡️ I learned to design RESTful APIs for CRUD operations while maintaining consistency across endpoints. For example, designing APIs for categories, subcategories, and items that ensure data relationships are properly maintained.
       
 What was the most difficult part of the assignment?
+
 Ans - ➡️ Design of Database
       ➡️ Managing the relationship between categories, subcategories, and items in a nested and hierarchical way without traditional foreign keys (as in SQL) was challenging. Deciding between embedding data vs referencing data for optimal performance was a critical decision.
       
 What you would have done differently given more time?
+
 Ans - ➡️Pagination 
       ➡️Implement the frontend for better understanding
   
