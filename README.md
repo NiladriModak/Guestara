@@ -1,7 +1,11 @@
 Guestara Nodejs Assignment
 To Run the file locally 
   1) npm init
-  2) npm run dev
+  2) npm i
+  3) change the package.json
+  4) ![image](https://github.com/user-attachments/assets/d66a0be2-8088-4dc5-8680-6f7c8a2cd44a)
+
+  5) npm run dev
 The main api calls are:-
 
   POST REQUEST
